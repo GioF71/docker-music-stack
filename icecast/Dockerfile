@@ -1,7 +1,7 @@
-FROM alpine:3.3
+FROM alpine
 MAINTAINER @VITIMan https://github.com/VITIMan 
 
-ENV ICECAST_VERSION 2.4.2-r1
+ENV ICECAST_VERSION 2.4.4-r8
 
 # https://docs.docker.com/engine/reference/builder/#arg
 # docker run -p 8000:8000 --net music_stack --name=icecast -d alpine-icecast:dev
